@@ -26,3 +26,18 @@ header {
 .tab-content {
     padding: 20px;
 }
+
+#emprendedores-list {
+    list-style: none;
+    counter-reset: emprendedores-counter;
+}
+
+#emprendedores-list li {
+    counter-increment: emprendedores-counter;
+    margin-bottom: 20px;
+}
+
+#emprendedores-list li::before {
+    content: counter(emprendedores-counter) ". ";
+    font-weight: bold;
+}
