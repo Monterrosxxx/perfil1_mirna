@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con pestañas</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <button class="tab-button" onclick="openTab('inicio')">Inicio</button>
+        <button class="tab-button" onclick="openTab('empresas')">Empresas</button>
+        <button class="tab-button" onclick="openTab('emprendedores')">Emprendedores</button>
+    </header>
+    <div id="inicio" class="tab-content">
+        <h2>Página de inicio</h2>
+        <p>Contenido de la página de inicio...</p>
+    </div>
+    <div id="empresas" class="tab-content" style="display: none;">
+        <h2>Página de empresas</h2>
+        <p>Contenido de la página de empresas...</p>
+    </div>
+    <div id="emprendedores" class="tab-content" style="display: none;">
+        <h2>Página de emprendedores</h2>
+        <p>Contenido de la página de emprendedores...</p>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
