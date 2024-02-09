@@ -26,6 +26,3 @@ agregarEmprendedor("Sergey Brin", "Cofundador de Google junto a Larry Page. Supe
 agregarEmprendedor("Jack Ma", "Fundador de Alibaba Group. Alibaba opera sitios de comercio electrónico para empresas y consumidores, incluyendo Taobao y Tmall. ");
 agregarEmprendedor("Brian Chesky", "Cofundador y CEO de Airbnb. Airbnb es una plataforma de alojamiento entre pares que permite a las personas alquilar sus hogares o espacios a huéspedes a corto plazo. ");
 agregarEmprendedor("Palmer Luckey", "Fundador de Oculus VR. Oculus hace cascos de realidad virtual avanzados adquiridos por Facebook en 2014. ");
-
-
-// Agregar los demás emprendedores aquí..
