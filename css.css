@@ -20,7 +20,8 @@ header {
 }
 
 .tab-button:hover {
-    background-color: #777;
+    background-color: #007bff; /* Cambio de color a azul */
+    color: #000; /* Cambio de color del texto a negro */
 }
 
 .tab-content {
