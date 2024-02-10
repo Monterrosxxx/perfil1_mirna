@@ -122,3 +122,71 @@ agregarEmprendedor(
 );
 
 // Continuar con los demás emprendedores...
+// Agregar información extendida de empresas
+function agregarEmpresa(nombre, descripcion, productos, servicios, sede, fundacion) {
+    var listaEmpresas = document.getElementById("empresas-list");
+    var nuevoElemento = document.createElement("li");
+    var contenido = document.createElement("div");
+
+    var titulo = document.createElement("h3");
+    titulo.textContent = nombre;
+
+    var info = document.createElement("p");
+    info.textContent = descripcion + "\n\n" +
+                      "Productos: " + productos.join(", ") + "\n" +
+                      "Servicios: " + servicios.join(", ") + "\n" +
+                      "Sede: " + sede + "\n" +
+                      "Año de fundación: " + fundacion;
+
+    contenido.appendChild(titulo);
+    contenido.appendChild(info);
+    nuevoElemento.appendChild(contenido);
+
+    listaEmpresas.appendChild(nuevoElemento);
+}
+
+// Agregar empresas con información extendida
+agregarEmpresa(
+    "S&H SUPPORT",
+    "Es una consultora que brinda sus servicios de Outsourcing y Consultoría en el Área de Tecnología de la Informática.",
+    [],
+    ["Outsourcing", "Consultoría en Tecnología de la Informática"],
+    "El Salvador",
+    "Año de fundación desconocido"
+);
+
+agregarEmpresa(
+    "ALGIITECH, S.A. DE C.V. (DiiMO)",
+    "También conocida como DiiMO, es la primera app en El Salvador que brinda micro préstamos.",
+    [],
+    ["Micro préstamos"],
+    "El Salvador",
+    "Año de fundación desconocido"
+);
+
+agregarEmpresa(
+    "GRUPO BORTEX S.A. DE C.V.",
+    "Cuenta con experiencia en el ramo de la tecnología, con venta de equipo Hardware y Software Informáticos.",
+    [],
+    ["Venta de equipo Hardware y Software Informáticos"],
+    "El Salvador",
+    "Año de fundación desconocido"
+);
+
+agregarEmpresa(
+    "INFILE S.A. DE C.V.",
+    "Es una importante empresa de servicios tecnológicos para facilitar la gestión de altos volúmenes de información.",
+    [],
+    ["Servicios tecnológicos para la gestión de información"],
+    "El Salvador",
+    "Año de fundación desconocido"
+);
+
+agregarEmpresa(
+    "IT Profis El Salvador",
+    "Brinda los servicios de desarrollo de software y servicio de Outsourcing.",
+    [],
+    ["Desarrollo de software", "Outsourcing"],
+    "El Salvador",
+    "Año de fundación desconocido"
+);
