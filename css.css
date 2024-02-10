@@ -20,8 +20,8 @@ header {
 }
 
 .tab-button:hover {
-    background-color: #007bff; /* Cambio de color a azul */
-    color: #000; /* Cambio de color del texto a negro */
+    background-color: #007bff;
+    color: #000;
 }
 
 .tab-content {
@@ -30,4 +30,19 @@ header {
 
 #empresas-internacionales {
     display: none;
+}
+
+.info-box {
+    text-align: center;
+    background-color: #add8e6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info-box:hover {
+    background-color: #000;
+}
+
+.info-box strong {
+    color: gray;
 }
