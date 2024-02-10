@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página con pestañas</title>
-    <link rel="stylesheet" href="css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página con pestañas</title>
+  <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
-    <header>
-        <button class="tab-button" onclick="openTab('empresas')">Empresas</button>
-        <button class="tab-button" onclick="openTab('emprendedores')">Emprendedores</button>
-        <button class="tab-button" onclick="openTab('empresas-internacionales')">Empresas Internacionales</button>
-    </header>
-    <div id="empresas" class="tab-content" style="display: none;">
-        <h2>Página de empresas</h2>
-        <ul>
-            <li><strong>S&H SUPPORT:</strong> Es una consultora que brinda sus servicios de Outsourcing y Consultoría en el Área de Tecnología de la Informática.</li>
-            <li><strong>ALGIITECH, S.A. DE C.V.:</strong> También conocida como DiiMO, es la primera app en El Salvador que brinda micro préstamos.</li>
-            <li><strong>GRUPO BORTEX S.A. DE C.V.:</strong> Cuenta con experiencia en el ramo de la tecnología, con venta de equipo Hardware y Software Informáticos.</li>
-            <li><strong>INFILE S.A. DE C.V.:</strong> Es una importante empresa de servicios tecnológicos para facilitar la gestión de altos volúmenes de información.</li>
-            <li><strong>IT Profis El Salvador:</strong> Brinda los servicios de desarrollo de software y servicio de Outsourcing.</li>
-        </ul>
-    </div>
-    <div id="emprendedores" class="tab-content" style="display: none;">
-        <h2>Página de emprendedores</h2>
-        <ol id="emprendedores-list">
-            <!-- Aquí se añadirán los elementos de la lista mediante JavaScript -->
-        </ol>
-    </div>
-    <div id="empresas-internacionales" class="tab-content" style="display: none;">
-        <h2>Página de empresas internacionales</h2>
-        <p>Contenido de la página de empresas internacionales...</p>
-        <ol>
-            <li><strong>Microsoft Inc.</strong></li>
-            <li><strong>International Business Machines (IBM)</strong></li>
-            <li><strong>Oracle Corporation</strong></li>
-            <li><strong>Alphabet Inc. (Google)</strong></li>
-            <li><strong>Adobe Inc.</strong></li>
-        </ol>
-    </div>
-    <script src="js.js"></script>
+
+<header>
+  <button class="tab-button" onclick="openTab('empresas')">Empresas</button>
+  <button class="tab-button" onclick="openTab('emprendedores')">Emprendedores</button>
+  <button class="tab-button" onclick="openTab('empresas-internacionales')">Empresas Internacionales</button> 
+</header>
+
+<div id="empresas" class="tab-content" style="display: none;">
+  <h2>Página de empresas</h2>
+  <ul>
+    <li><strong>S&H SUPPORT:</strong> Es una consultora que brinda sus servicios de Outsourcing y Consultoría en el Área de Tecnología de la Informática.</li>
+    <li><strong>ALGIITECH, S.A. DE C.V.:</strong> También conocida como DiiMO, es la primera app en El Salvador que brinda micro préstamos.</li>
+    <li><strong>GRUPO BORTEX S.A. DE C.V.:</strong> Cuenta con experiencia en el ramo de la tecnología, con venta de equipo Hardware y Software Informáticos.</li>
+    <li><strong>INFILE S.A. DE C.V.:</strong> Es una importante empresa de servicios tecnológicos para facilitar la gestión de altos volúmenes de información.</li>
+    <li><strong>IT Profis El Salvador:</strong> Brinda los servicios de desarrollo de software y servicio de Outsourcing.</li>
+  </ul>
+</div>
+
+<div id="emprendedores" class="tab-content" style="display: none;">
+
+  <!-- Contenido modificado -->
+
+</div>
+
+<div id="empresas-internacionales" class="tab-content" style="display: none;">
+  <h2>Página de empresas internacionales</h2>
+  <p>Contenido de la página de empresas internacionales...</p>
+
+  <ol>
+    <li><strong>Microsoft Inc.</strong></li>
+    <li><strong>International Business Machines (IBM)</strong></li>
+    <li><strong>Oracle Corporation</strong></li>
+    <li><strong>Alphabet Inc. (Google)</strong></li>
+    <li><strong>Adobe Inc.</strong></li>
+  </ol>
+</div>
+
+<script src="js.js"></script>
+
 </body>
 </html>
